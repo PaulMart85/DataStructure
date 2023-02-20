@@ -137,6 +137,9 @@ public class LinkedList<T> {
         head = null;
     }
 
+    /**
+     * Обратить связанный список
+     */
     public void revert() {
         Node prev = null;
         Node curr = head;
