@@ -141,6 +141,7 @@ public class LinkedList<T> {
      * Обратить связанный список
      */
     public void revert() {
+        Stringbuilder
         Node prev = null;
         Node curr = head;
 
